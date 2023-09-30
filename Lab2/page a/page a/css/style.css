@@ -1,0 +1,166 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+#section_normal_1{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1180px;
+    height: 80px;
+    position: relative;
+}
+.one-third.column.alpha{
+    position: absolute;
+    margin-top: 20px;
+    top: 0;
+    left: 0px;
+}
+.two-thirds.column.omega{
+    position: absolute;
+    top: 14px;
+    right: 0px;
+}
+.htext_style {
+    float: left;
+    margin-right: 10px;
+    line-height: 35px;
+}
+/*p2*/
+
+ #section_normal_4_2{
+    border-top: #888 solid;
+    position: relative;
+    height: 600px;
+    width: 100%;
+     background-color: #333;
+     color: white;
+}
+.img_style{
+    position: absolute;
+    top: 0;
+    left: 40px;
+}
+.eight.columns.omega{
+    height: 480px;
+    width: 580px;
+    flex: 0 0 580px;
+    margin-left: auto;
+}
+#section_normal_4_2 .sixteen.columns{
+    position: absolute;
+    padding-top: 10px;
+    height: 510px;
+    width: 1160px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*p3*/
+#section_normal_6{
+    width: 100%;
+    height: 380px;
+    background-color: #eee;
+    position: relative;
+    border-bottom: #ddd solid;
+
+}
+/*<!-- box1 -->*/
+.box_1.pix_builder_bg{
+    width: 600px;
+    height: 120px;
+    display: block;
+    position: relative;
+    border-bottom: rgb(221 221 221) solid;
+}
+.box_1.pix_builder_bg .txt_style{
+    width:460px;
+    height: 100%;
+    font-size: 15px;
+    top:0;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+}
+.box_1.pix_builder_bg .b_style {
+    background-color: #f5f5f5;
+    width: 140px;
+    height: 100%;
+    position: relative;
+}
+
+.box_1.pix_builder_bg .b_style .logo_style {
+    position: absolute;
+    max-width: 100%; /* Để ảnh không vượt quá kích thước của container */
+    max-height: 100%; /* Để ảnh không vượt quá kích thước của container */
+    border-radius: 50%; /* Biến hình thành hình tròn */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*<!--End box1 -->*/
+
+
+/*<!-- box2 -->*/
+.box_2.pix_builder_bg{
+    width: 600px;
+    height: 120px;
+    display: block;
+    position: relative;
+    border-bottom: rgb(221 221 221) solid;
+
+}
+.box_2.pix_builder_bg .txt_style{
+    width:460px;
+    height: 100%;
+    font-size: 15px;
+    top:0;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+}
+.box_2.pix_builder_bg .b_style {
+    background-color: #f5f5f5;
+    width: 140px;
+    height: 100%;
+    position: relative;
+}
+
+.box_2.pix_builder_bg .b_style .logo_style {
+    position: absolute;
+    max-width: 100%; /* Để ảnh không vượt quá kích thước của container */
+    max-height: 100%; /* Để ảnh không vượt quá kích thước của container */
+    border-radius: 50%; /* Biến hình thành hình tròn */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*<!--End box2 -->*/
+.envato_unbounce .pix_builder_bg .container{
+    position: relative;
+}
+
+.eight.columns.stbox.alpha{
+    width: 600px;
+    height: 120px;
+    position: absolute;
+    left: 8%;
+
+}
+.eight.columns.stbox.omega{
+    width: 600px;
+    height: 120px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 8%;
+    margin-left: 10px;
+}
+
+/*p3*/
+#section_agency_5{
+    width: 100%;
+    height: 570px;
+    background-color: #ffffff;
+
+}
