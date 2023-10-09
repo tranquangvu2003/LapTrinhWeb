@@ -1,0 +1,90 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#form1{
+    width: 800px;
+    margin: auto;
+    overflow: auto;
+    border: solid 8px #adb5bd;
+    padding: 30px 60px;
+}
+#title {
+    font-size: 39px;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    padding: 35px 0;
+    font-weight: bold;
+    font-family: Montserrat;
+}
+
+.label{
+    font-size: 9px;
+    font-family: Montserrat;
+    color: #393939;
+}
+.pix_text{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: #393939;
+    border: none;
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 40px;
+}
+div.item {
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    background-color: #f7f7f7;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    color: #d3d0d3;
+
+}
+.item.email {
+    width: 47%;
+    display: inline-block;
+    margin-right: 20px;
+}
+ .item.phone{
+     width: 47%;
+     display: inline-block;
+     margin-left: 20px;
+ }
+.item.services .pix_text #service4{
+     height: 40px;
+     width: 95%;
+    margin-top: 10px;
+     display: inline-block;
+ }
+.item.message .pix_text{
+    min-height: 120px;
+}
+textarea::placeholder {
+    color: #d8d9da;
+}
+input::placeholder{
+    color: #d8d9da;
+}
+.button_submit .button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    border-radius: 25px;
+    color: white;
+}
+
+.pix_text:focus{
+    outline: none;
+    border: none;
+}
+textarea:focus{
+    outline: none;
+    border: none;
+}

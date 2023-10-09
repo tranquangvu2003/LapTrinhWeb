@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" /></head>
+</head>
+<body>
+<div id="container">
+    <form id="form3" action="index.html" method="post">
+
+        <!--  Login      -->
+        <div id="login">
+
+            <div class="title">
+                <h1 class="text">Acount</h1>
+            </div>
+
+            <div class="info">
+
+                <div class="item info">
+                    <div class="input-icon"><i class="fa fa-user"></i></div>
+                    <input type="text" name="name" id="name" placeholder="Full Name" class="pix text">
+                </div>
+
+                <div class="item info">
+                    <div class="input-icon"><i class="fa fa-envelope"></i></div>
+                    <input type="email" name="name" id="email" placeholder="Email Adress" class="pix text">
+                </div>
+
+                <div class="item info">
+                    <div class="input-icon"><i class="fa fa-key"></i></div>
+                    <input type="password" name="name" id="password" placeholder="Password" class="pix text">
+                </div>
+
+            </div>
+        </div>
+        <!--  End Login      -->
+
+        <!--  Date of Birth -- Gender      -->
+        <div id="in4">
+
+            <!-- Date of Birth-->
+            <div class="dob">
+                <div class="title">
+                    <h1 class="text">Date of Birth</h1>
+                </div>
+
+                <div class="info in4">
+                    <input type="text" id="date" value="" placeholder="DD" class="tem">
+                </div>
+
+                <div class="info in4">
+                    <input type="text" id="month" value="" placeholder="MM" class="tem">
+                </div>
+
+                <div class="info in4">
+                    <input type="text" id="year" value="" placeholder="YYYY" class="tem">
+                </div>
+
+            </div>
+            <!--End Date of Birth-->
+
+            <!--Gender-->
+            <div class="gender">
+                <div class="title">
+                    <h1 class="text">Gender</h1>
+                </div>
+                <div class="gd">
+                    <div class="button">
+                        <button type="button" class="button" >Male</button>
+                    </div>
+                    <div class="button">
+                        <button type="button" class="button">Female</button>
+                    </div>
+                </div>
+            </div>
+            <!--End| Gender-->
+        </div>
+        <!--End| Date of Birth -- Gender      -->
+
+        <!-- Payment Details-->
+        <div class="crepay">
+
+            <div class="title">
+                <h1 class="text">Payment Details</h1>
+            </div>
+
+            <div class="payment">
+                <div class="item info">
+                    <div class="input-icon"> <span class="material-symbols-outlined"> shopping_cart </span></div>
+                    <input type="button" name="payment-method" value="Credit Card" id="payment-method" checked="true"/>
+                </div>
+                <div class="item info">
+                    <div class="input-icon"><span class="material-symbols-outlined">credit_card</span></div>
+                    <input type="button" name="payment-method" value="paypal" id="payment-method"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="cnumber1">
+                <div class="input-icon"><i class="fa fa-credit-card"></i></div>
+                <input type="text" placeholder="Card Number" class="cnumber"/>
+            </div>
+        </div>
+
+        <div class="inputend">
+            <div class="cvc">
+                <div class="input-icon"><i class="fa fa-user"></i></div>
+                <input type="text" placeholder="Card CVC" class="cnumber"/>
+            </div>
+
+            <div class="col-half">
+                <div class="input-group">
+                    <select>
+                        <option>01 Jan</option>
+                        <option>02 Jan</option>
+                    </select>
+                    <select>
+                        <option>2015</option>
+                        <option>2016</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="end">
+
+            <div class="title">
+                <h1 class="text">Terms and Conditions</h1>
+            </div>
+            <div class="input-group">
+                <input type="checkbox" id="terms"/>
+                <label for="terms" class="textend">I accept the terms and conditions for signing up to this service, and hereby confirm I have read the privacy policy.</label>
+            </div>
+        </div>
+
+        <!--End| Payment Details-->
+
+
+    </form>
+</div>
+</body>
+</html>

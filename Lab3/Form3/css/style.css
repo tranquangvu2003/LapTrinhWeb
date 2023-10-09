@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    background-color: #e0e0e0;
+}
+
+*{
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+}
+#container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#form3{
+    text-align: center;
+    width: 600px;
+    padding: 40px 30px 40px 30px;
+    height: 100%;
+    box-shadow: #333;
+    background-color: #fff;
+    margin: 20px 10px;
+}
+.title .text{
+    color: #7fd322;
+    font-size: 15px;
+    text-align: left;
+}
+.item.info {
+    display: inline-flex;
+    width: 100%;
+    margin: 10px;
+    border: solid 1px #e6e6e6;
+    margin: 10px 0px 10px 0px;
+    background-color: #f9f9f9;
+    height: 60px;
+}
+.input-icon{
+    width: 20px;
+    border-right: #e6e6e6 solid;
+    border-radius: 0px;
+    padding-right: 30px;
+    margin: 10px;
+    line-height: 40px;
+}
+.fa, .fas {
+    font-weight: 900;
+    line-height: 32px;
+
+}
+.pix.text{
+    border: none;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.dob {
+    width: 48%;
+}
+
+.gender{
+    width: 48%;
+}
+#in4{
+    display: inline-flex;
+    width: 100%;
+}
+.info.in4 .tem{
+    height: 60px;
+    width: 80px;
+    margin-left: 5px;
+    border: 1px solid #e6e6e6;
+}
+
+.info.in4 {
+    display: inline-block;
+}
+
+.gender .button{
+    width: 49%;
+    height: 60px;
+    display: inline;
+    padding: 0;
+}
+
+.payment .item.info{
+    width: 49%;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+    margin: 1px;
+
+}
+
+.payment .input-icon{
+    border: none;
+}
+
+.card1 {
+
+    width: 100%;
+    margin: 10px 0px;
+    float: left;
+}
+.cnumber1 {
+    display: inline-flex;
+    width: 100%;
+    border: solid 1px #e6e6e6;
+    height: 70px;
+}
+
+.cnumber{
+    width: 100%;
+    border: none;
+    height: 64px;
+}
+
+.cvc {
+    display: inline-flex;
+    width: 50%;
+    border: solid 1px #e6e6e6;
+    height: 65px;
+    float: left;
+}
+.col-half {
+    width: 50%;
+    height: 100px;
+}
+.inputend{
+    width: 100%;
+}
+.input-group{
+    width: 100%;
+
+}
+.inputend{
+    display: inline-flex;
+    height: 60px;
+}
+
+select{
+    width: 49%;
+    height: 66px;
+    display: inline;
+    padding: 0;
+    border: solid 1px #e6e6e6;
+}
+#in4{
+    width: 104%;
+}
+#payment-method{
+    border: none;
+    background-color: #f9f9f9;
+}
+.button{
+    border: #e6e6e6;
+}
+input:active{
+    border: none;
+}
+.textend{
+    color:#c1bdbd;
+}
