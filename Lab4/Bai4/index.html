@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        textarea, input {
+            width: 300px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        #result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center">Đếm số lần xuất hiện</h1>
+<div id="container">
+    <textarea id="textA" placeholder="Nhập đoạn văn (A)"></textarea><br>
+    <input type="text" id="textB" placeholder="Nhập dòng (B)"><br>
+    <button onclick="countOccurrences()">Đếm</button><br>
+    <div id="result"></div>
+</div>
+
+<script>
+    function countOccurrences() {
+        var textA = document.getElementById("textA").value;
+        var textB = document.getElementById("textB").value;
+
+        var regex = new RegExp(textB, "g");
+        var count = (textA.match(regex) || []).length;
+
+        var resultElement = document.getElementById("result");
+        resultElement.textContent = "Số lần xuất hiện của '" + textB + "' trong đoạn văn là: " + count;
+    }
+</script>
+</body>
+</html>

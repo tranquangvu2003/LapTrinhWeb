@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: #fff; /* Màu nền mặc định */
+        }
+        .color-button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<h1>Thay đổi màu nền</h1>
+<button class="color-button" onclick="changeBackgroundColor('red')">Đỏ</button>
+<button class="color-button" onclick="changeBackgroundColor('blue')">Xanh</button>
+<button class="color-button" onclick="changeBackgroundColor('green')">Xanh lá cây</button>
+<button class="color-button" onclick="changeBackgroundColor('yellow')">Vàng</button>
+<button class="color-button" onclick="changeBackgroundColor('purple')">Tím</button>
+
+<script>
+    function changeBackgroundColor(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<body>
+<h1>Giai phuong trinh bac II</h1>
+<p>Nhap gia tri cho a, b, va c:</p>
+<input type="text" id="a" placeholder="Nhap a"><br><br>
+<input type="text" id="b" placeholder="Nhap b"><br><br>
+<input type="text" id="c" placeholder="Nhap c"><br><br>
+<button onclick="giaiPhuongTrinh()">Giai</button><br><br>
+<p>Ket qua:</p>
+<p id="ketqua"></p>
+
+<script>
+    function giaiPhuongTrinh() {
+        var a = parseFloat(document.getElementById("a").value);
+        var b = parseFloat(document.getElementById("b").value);
+        var c = parseFloat(document.getElementById("c").value);
+
+        var delta = b * b - 4 * a * c;
+
+        if (delta > 0) {
+            var x1 = (-b + Math.sqrt(delta)) / (2 * a);
+            var x2 = (-b - Math.sqrt(delta)) / (2 * a);
+            document.getElementById("ketqua").innerHTML = "Phuong trinh co 2 nghiem:<br>x1 = " + x1 + "<br>x2 = " + x2;
+        } else if (delta === 0) {
+            var x = -b / (2 * a);
+            document.getElementById("ketqua").innerHTML = "Phuong trinh co nghiem kep:<br>x = " + x;
+        } else {
+            document.getElementById("ketqua").innerHTML = "Phuong trinh vo nghiem.";
+        }
+    }
+</script>
+</body>
+</body>
+</html>

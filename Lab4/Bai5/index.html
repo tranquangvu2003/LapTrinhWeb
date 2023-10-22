@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Xoay hình ảnh</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #rotating-image {
+      width: 400px;
+      height: 200px;
+      transition: transform 1s ease;
+    }
+  </style>
+</head>
+<body>
+<img id="rotating-image" src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/f8/76/09/f876095c-4f99-f138-d380-0420e21c3c89/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png" alt="Hình ảnh">
+<script>
+  $(document).ready(function() {
+    var degree = 0;
+    var rotationInterval;
+
+    function rotateImage() {
+      degree += 15;
+      $("#rotating-image").css("transform", "rotate(" + degree + "deg)");
+    }
+
+    rotationInterval = setInterval(rotateImage, 2000);
+  });
+</script>
+</body>
+</html>

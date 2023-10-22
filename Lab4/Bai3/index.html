@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<body>
+<h1>Lời chào ngẫu nhiên</h1>
+<div id="greeting"></div>
+
+<script>
+    var greetings = [
+        "Xin chào!",
+        "Chào bạn!",
+        "HELLO HELLO ...!",
+        "Hello!",
+        "Chào bạn đến trang web!",
+    ];
+    function getRandomGreeting() {
+        var randomIndex = Math.floor(Math.random() * greetings.length);
+        return greetings[randomIndex];
+    }
+    var greetingElement = document.getElementById("greeting");
+    greetingElement.textContent = getRandomGreeting();
+</script>
+</body>
+</body>
+</html>

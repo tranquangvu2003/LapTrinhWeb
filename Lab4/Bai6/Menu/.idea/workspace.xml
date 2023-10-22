@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e27e9d74-8180-4b86-a1d3-75098800bf72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Bai5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai7/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Bai7/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/Bai2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Lab5/untitled/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2WCzsQd8ZWgGQZI2OkhJOrCJL5T" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/Laptrinhweb/Lab4/Bai6/Form2&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Menu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Menu" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e27e9d74-8180-4b86-a1d3-75098800bf72" name="Changes" comment="" />
+      <created>1696251560243</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696251560243</updated>
+      <workItem from="1696251561240" duration="11296000" />
+      <workItem from="1696294524439" duration="1264000" />
+      <workItem from="1696296139922" duration="201000" />
+      <workItem from="1696296349138" duration="172000" />
+      <workItem from="1696333308665" duration="472000" />
+      <workItem from="1696337986532" duration="11000" />
+      <workItem from="1696338062810" duration="39000" />
+      <workItem from="1696423893949" duration="7000" />
+      <workItem from="1696942375572" duration="95000" />
+      <workItem from="1696943143831" duration="46000" />
+      <workItem from="1696943194484" duration="665000" />
+      <workItem from="1696944711342" duration="77000" />
+      <workItem from="1697086906773" duration="65000" />
+      <workItem from="1697087027843" duration="39000" />
+      <workItem from="1697259792223" duration="46000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
